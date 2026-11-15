@@ -29,22 +29,19 @@ biblioteca-virtual/
 
 ## Explicación de estructura del proyecto
 
-### Carpetas:
-*Carpeta raiz/*: Configuración y archivos principales
+| Archivo / Carpeta | Descripción |
+|---|---|
+| `src/` | Contiene el código fuente del proyecto. |
+| `src/assets/` | Almacena los recursos visuales, como imágenes, fuentes e iconos. |
+| `src/styles/` | Contiene los archivos CSS/Sass que definen la apariencia de la página. |
+| `src/scripts/` | Contiene los archivos JavaScript que controlan el comportamiento y la funcionalidad de la página. |
+| `src/main.js` | Punto de entrada de JavaScript. Conecta los estilos y los scripts del proyecto. |
+| `public/` | Almacena archivos estáticos que Vite publica directamente, sin procesarlos. |
+| `public/favicon.svg` | Icono que aparece en la pestaña del navegador. |
+| `index.html` | Contiene la estructura HTML principal que verá el navegador. |
+| `package.json` | Archivo de configuración que contiene información del proyecto, dependencias y scripts de npm. |
+| `README.md` | Contiene la documentación del proyecto. |
 
-*src/*: Código fuente (apariencia de la página)
-*src/assets/*: Recursos visuales
-*src/styles/*: Apariencia de la página
-*src/scripts/:* Comportamiento de la página (funcionalidad)
-
-*main.js*: Punto de entrada de los estilos (styles). Conecta los recursos y comportamientos de la página.
-
-*public/*: Archivos estáticos que es necesario publicar directamente, sin que Vite tenga que procesarlos.
-*public/favicon.svg*: Icono pequeño que aparece en la pestaña del navegador.
-
-*index.html*: Contiene la estructura HTML que verá el navegador.
-*package.json*: La configuración del proyecto (Node.js y npm) para conocer información y dependencias del proyecto.
-*README.md*: COntiene la documentación del proyecto.
 
 ## Instalación
 npm install
