@@ -40,8 +40,24 @@ biblioteca-virtual/
 | `public/favicon.svg` | Icono que aparece en la pestaña del navegador. |
 | `index.html` | Contiene la estructura HTML principal que verá el navegador. |
 | `package.json` | Archivo de configuración que contiene información del proyecto, dependencias y scripts de npm. |
+| `package-lock.json` | Este archivo registra las versiones exactas de los paquetes instalados, incluyendo sus dependencias internas. |
 | `README.md` | Contiene la documentación del proyecto. |
 
+## Estructura inicial de la landing page
+01. Header
+Logotipo · Navegación · Menú
+
+02. Hero
+Presentación principal de la biblioteca
+
+03. Libros destacados
+Selección visual de libros
+
+04. Sobre la biblioteca
+Concepto y propósito del proyecto
+
+05. Footer
+Información adicional y enlaces
 
 ## Instalación
 npm install
