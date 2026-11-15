@@ -6,7 +6,7 @@ Biblioteca virtual que busca ofrecer un espacio digital para descubrir, explorar
 - JavaScript
 - Vite
 - GSAP (más adelante)
-Estructura del proyecto
+
 
 ## Estructura del proyecto
 
@@ -31,16 +31,20 @@ biblioteca-virtual/
 
 ### Carpetas:
 *Carpeta raiz/*: Configuración y archivos principales
-    *src/*: Código fuente (apariencia de la página)
-        *src/assets/*: Recursos visuales
-        *src/styles/*: Apariencia de la página
-        *src/scripts/:* Comportamiento de la página (funcionalidad)
-        *main.js*: Punto de entrada de los estilos (styles). Conecta los recursos y comportamientos de la página.
-    *public/*: Archivos estáticos que es necesario publicar directamente, sin que Vite tenga que procesarlos.
-        *public/favicon.svg*: Icono pequeño que aparece en la pestaña del navegador.
-    *index.html*: Contiene la estructura HTML que verá el navegador.
-    *package.json*: La configuración del proyecto (Node.js y npm) para conocer información y dependencias del proyecto.
-    *README.md*: COntiene la documentación del proyecto.
+
+*src/*: Código fuente (apariencia de la página)
+*src/assets/*: Recursos visuales
+*src/styles/*: Apariencia de la página
+*src/scripts/:* Comportamiento de la página (funcionalidad)
+
+*main.js*: Punto de entrada de los estilos (styles). Conecta los recursos y comportamientos de la página.
+
+*public/*: Archivos estáticos que es necesario publicar directamente, sin que Vite tenga que procesarlos.
+*public/favicon.svg*: Icono pequeño que aparece en la pestaña del navegador.
+
+*index.html*: Contiene la estructura HTML que verá el navegador.
+*package.json*: La configuración del proyecto (Node.js y npm) para conocer información y dependencias del proyecto.
+*README.md*: COntiene la documentación del proyecto.
 
 ## Instalación
 npm install
